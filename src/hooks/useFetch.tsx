@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const API_KEY = process.env.NEXT_PUBLIC__GIPHY_API_KEY || 'fVxNPIJHetRkUkE8G5rPefcQOLL1Ag80';
+const API_KEY = 'fVxNPIJHetRkUkE8G5rPefcQOLL1Ag80';
 
 const useFetch = ({keyword}: { keyword: string }) => {
     console.log(keyword)
